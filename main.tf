@@ -4,7 +4,7 @@ terraform {
 
 variable "release_version" {
   type    = string
-  default = "v1"
+  default = "v2"
 }
 
 resource "terraform_data" "deployment" {
