@@ -31,3 +31,15 @@ This training demonstration uses terraform_data with temporary
 GitHub runner state. It does not create or update AWS resources.
 A production deployment requires persistent remote state and
 approved cloud authentication.
+## Deployment Approval
+
+The GitHub Actions workflow successfully triggers Terraform
+Plan and Apply after a pull request is merged.
+
+The production environment was configured, but required
+deployment reviewer approval could not be enforced because
+the feature was unavailable for this private repository
+under the current GitHub plan.
+
+The Terraform apply workflow executed successfully.
+
